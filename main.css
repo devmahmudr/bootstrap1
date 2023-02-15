@@ -1,0 +1,49 @@
+.cards {
+  background: linear-gradient(175.93deg, #5f00d8 -10.23%, #b200f1 117.03%);
+  height: 130vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+
+p {
+  margin: 0;
+}
+.brat {
+  margin-right: 23px;
+}
+th {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #414141;
+}
+.paragraph {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.td1 {
+  color: #00ca39;
+}
+.td2 {
+  color: #e44067;
+}
+
+tbody tr:nth-child(odd){
+background: #EEF2F5;
+}
+.page{
+    position: relative;
+    top: 20px;
+    left: 400px;
+}
